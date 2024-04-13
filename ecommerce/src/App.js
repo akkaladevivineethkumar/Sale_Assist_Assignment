@@ -1,12 +1,12 @@
 import Header from './component/Header'
-import Slider from './component/Slider'
+import ProductsSlider from './component/ProductsSlider'
 import './App.css';
 
 const App = () => {
   return (
     <div className="app-container">
       <Header />
-      <Slider />
+      <ProductsSlider />
     </div>
   );
 }

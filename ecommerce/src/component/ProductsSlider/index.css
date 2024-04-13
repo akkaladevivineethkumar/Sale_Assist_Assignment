@@ -55,3 +55,37 @@
     text-align: left;
     color: #E5DFD9;
 }
+
+.product-container{
+    /* display: grid;
+    grid-template-columns: repeat(9, 1fr); */
+    gap: 20px;
+    color: #e5dfd9;
+    padding: 18px;
+  }
+
+  .productslist-container {
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    width: 200x;
+    gap: 0px;
+    opacity: 0px;
+  }
+  
+  .image-bag {
+    height: 90px;
+    width: 90px;
+  }
+  
+  .bag-name {
+    text-align: center;
+    font-family: Encode Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20.25px;
+    letter-spacing: 0.1em;
+    color: #E5DFD9;
+    width: 90px;
+  }
