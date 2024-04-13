@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+
+.app-container {
+  padding: 16px;
+  height: 100vh;
+  background-color: black;
+}
