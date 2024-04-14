@@ -2,9 +2,32 @@ import { IoIosSearch } from "react-icons/io"
 import { CiBookmark } from "react-icons/ci"
 import { CiUser } from "react-icons/ci"
 import { AiOutlineShopping } from "react-icons/ai"
+import { useNavigate } from "react-router-dom"
 import './index.css'
 
 const Header = () => {
+    const navigate = useNavigate()
+
+    const BagClicked = () => {
+        navigate("/")
+    }
+
+    const TravelClicked = () => {
+        navigate("/travel")
+    }
+
+    const AccesoriesClicked = () => {
+        navigate("/accesories")
+    }
+
+    const GiftingClicked = () => {
+        navigate('/gifting')
+    }
+
+    const JeweleryClicked = () => {
+        navigate('/jewelery')
+    }
+
     return(
     <div className="Header-container">
         <div className="header-1">
@@ -17,11 +40,11 @@ const Header = () => {
             </div>
         </div>
         <ul className="header-2">
-            <li>Bags</li>
-            <li>Travel</li>
-            <li>Accesories</li>
-            <li>Gifting</li>
-            <li>Jewelery</li>
+            <li onClick={BagClicked}>Bags</li>
+            <li onClick={TravelClicked}>Travel</li>
+            <li onClick={AccesoriesClicked}>Accesories</li>
+            <li onClick={GiftingClicked}>Gifting</li>
+            <li onClick={JeweleryClicked}>Jewelery</li>
         </ul>
     </div>
     )

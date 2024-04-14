@@ -33,10 +33,7 @@
 .header-2 {
     width: 472px;
     height: 18px;
-    /* top: 69px;
-    left: 404px;
-    gap: 0px;
-    opacity: 0px; */
+    cursor: pointer;
     color: #E5DFD9;
 
     font-family: "Encode Sans";
