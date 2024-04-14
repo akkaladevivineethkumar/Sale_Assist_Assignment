@@ -16,15 +16,13 @@ const Header = () => {
                 <AiOutlineShopping size="28" color="#E5DFD9" />
             </div>
         </div>
-        {/* <div> */}
-            <ul className="header-2">
-                <li>Bags</li>
-                <li>Travel</li>
-                <li>Accesories</li>
-                <li>Gifting</li>
-                <li>Jewelery</li>
-            </ul>
-        {/* </div> */}
+        <ul className="header-2">
+            <li>Bags</li>
+            <li>Travel</li>
+            <li>Accesories</li>
+            <li>Gifting</li>
+            <li>Jewelery</li>
+        </ul>
     </div>
     )
 }

@@ -1,19 +1,8 @@
 .silder-container {
-    width: Hug (1,303px)px;
-    height: Hug (130px)px;
-    top: 137px;
-    left: 32px;
     gap: 56px;
-    opacity: 0px;
 }
 
 .details-container {
-    width: Hug (151px)px;
-    height: Hug (20px)px;
-    top: 299px;
-    left: 32px;
-    gap: 8px;
-    opacity: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,8 +23,8 @@
 .center-icon {
     margin: -1 10px;
     color: #E5DFD9;
-    gap: 0px;
-    opacity: 0px;
+    /* gap: 0px;
+    opacity: 0px; */
     font-size: 28px;
 }
 
@@ -59,19 +48,14 @@
 .product-container{
     /* display: grid;
     grid-template-columns: repeat(9, 1fr); */
-    gap: 20px;
+    /* gap: 20px; */
     color: #e5dfd9;
     padding: 18px;
   }
 
   .productslist-container {
-    /* display: flex;
-    flex-direction: column; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
     width: 200x;
     gap: 0px;
-    opacity: 0px;
   }
   
   .image-bag {
@@ -81,7 +65,7 @@
   
   .bag-name {
     text-align: center;
-    font-family: Encode Sans;
+    font-family: 'Encode Sans';
     font-size: 13px;
     font-weight: 400;
     line-height: 20.25px;
