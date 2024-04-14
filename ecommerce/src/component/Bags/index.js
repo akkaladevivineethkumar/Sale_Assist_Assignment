@@ -1,5 +1,5 @@
-import ProductDetails from "../ProductDetails"
-import ProductsSlider from "../ProductsSlider"
+import ProductDetails from "./ProductDetails"
+import ProductsSlider from "./ProductsSlider"
 import Header from "../Header"
 
 const Bags = () => (
