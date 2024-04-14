@@ -18,4 +18,3 @@ The project is deployed and hosted on Netlify. Can be access the live version of
 - **Mock API**: The project fetches product data from a mock API hosted on [https://my-json-server.typicode.com](https://my-json-server.typicode.com/akkaladevivineethkumar/tann_trim_api1). The API provides JSON data representing various products available in the catalog.
 - **Styling**: Custom styling is applied to the components using CSS files located in the `index.css` files of respective components.
 - **Dependencies**: Ensure that you have Node.js and npm installed on your machine to install and run the project dependencies.
-
