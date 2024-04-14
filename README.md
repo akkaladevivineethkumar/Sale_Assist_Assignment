@@ -1,7 +1,7 @@
 # TANN TRIM
 
 ## Project Overview
-TANN TRIM is a web application designed to showcase a curated collection of bags and accessories. The project comprises several components built with React, offering a user-friendly interface for browsing through the product catalog. The main components include a header section (`Header`), a product details section (`ProductDetails`), and a product slider component (`ProductsSlider`). Users can explore various products, view their details, and enjoy a seamless browsing experience.
+TANN TRIM is a web application designed to showcase a curated collection of bags and accessories. The project comprises several components built with React, offering a user-friendly interface for browsing through the product catalog. The main components include a header section (`Header`), a product details section (`ProductDetails`), a product slider component (`ProductsSlider`), and individual category pages (`Bags`, `Travel`, `Accessories`, `Gifting`, `Jewelry`). Users can explore various products, view their details, and enjoy a seamless browsing experience.
 
 ## Technologies Used
 - **React**: A JavaScript library for building interactive user interfaces.
@@ -9,6 +9,7 @@ TANN TRIM is a web application designed to showcase a curated collection of bags
 - **react-icons**: A library providing a wide range of icons as React components, enhancing the visual appeal of the application.
 - **react-slick**: A responsive carousel/slider component for React applications, enabling smooth navigation through product images.
 - **CSS**: Cascading Style Sheets are used for styling the components and ensuring a visually appealing layout.
+- **react-router-dom**: A package providing routing capabilities for React applications.
 
 ## Link to the Deployed Site on Netlify
 The project is deployed and hosted on Netlify. Can be access the live version of the application by clicking the following link: [TANN TRIM](https://tanntrim1.netlify.app/)
