@@ -6,27 +6,6 @@ import { NavLink } from "react-router-dom"
 import './index.css'
 
 const Header = () => {
-    // const navigate = useNavigate()
-
-    // const BagClicked = () => {
-    //     navigate("/")
-    // }
-
-    // const TravelClicked = () => {
-    //     navigate("/travel")
-    // }
-
-    // const AccesoriesClicked = () => {
-    //     navigate("/accesories")
-    // }
-
-    // const GiftingClicked = () => {
-    //     navigate('/gifting')
-    // }
-
-    // const JeweleryClicked = () => {
-    //     navigate('/jewelery')
-    // }
 
     return(
     <div className="Header-container">
