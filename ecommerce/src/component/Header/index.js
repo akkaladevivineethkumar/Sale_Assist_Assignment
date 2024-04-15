@@ -10,7 +10,9 @@ const Header = () => {
     return(
     <div className="Header-container">
         <div className="header-1">
-            <h1 className="Website-name">TANN TRIM</h1>
+            <NavLink className="Link" to = "/">
+            <   h1 className="Website-name">TANN TRIM</h1>
+            </NavLink>
             <div className="react-icons">
                 <IoIosSearch size="28" color="#E5DFD9" />
                 <CiUser size="28" color="#E5DFD9" />
