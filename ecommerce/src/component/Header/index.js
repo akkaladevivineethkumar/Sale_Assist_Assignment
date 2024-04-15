@@ -2,31 +2,31 @@ import { IoIosSearch } from "react-icons/io"
 import { CiBookmark } from "react-icons/ci"
 import { CiUser } from "react-icons/ci"
 import { AiOutlineShopping } from "react-icons/ai"
-import { useNavigate } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import './index.css'
 
 const Header = () => {
-    const navigate = useNavigate()
+    // const navigate = useNavigate()
 
-    const BagClicked = () => {
-        navigate("/")
-    }
+    // const BagClicked = () => {
+    //     navigate("/")
+    // }
 
-    const TravelClicked = () => {
-        navigate("/travel")
-    }
+    // const TravelClicked = () => {
+    //     navigate("/travel")
+    // }
 
-    const AccesoriesClicked = () => {
-        navigate("/accesories")
-    }
+    // const AccesoriesClicked = () => {
+    //     navigate("/accesories")
+    // }
 
-    const GiftingClicked = () => {
-        navigate('/gifting')
-    }
+    // const GiftingClicked = () => {
+    //     navigate('/gifting')
+    // }
 
-    const JeweleryClicked = () => {
-        navigate('/jewelery')
-    }
+    // const JeweleryClicked = () => {
+    //     navigate('/jewelery')
+    // }
 
     return(
     <div className="Header-container">
@@ -40,11 +40,21 @@ const Header = () => {
             </div>
         </div>
         <ul className="header-2">
-            <li onClick={BagClicked}>Bags</li>
-            <li onClick={TravelClicked}>Travel</li>
-            <li onClick={AccesoriesClicked}>Accesories</li>
-            <li onClick={GiftingClicked}>Gifting</li>
-            <li onClick={JeweleryClicked}>Jewelery</li>
+            <NavLink activeClassName="active" className="Link" to = "/">
+            <li>Bags</li>
+            </NavLink>
+            <NavLink className="Link" to = "/travel">
+            <li>Travel</li>
+            </NavLink>
+            <NavLink className="Link" to = "/accesories">
+            <li>Accesories</li>
+            </NavLink>
+            <NavLink className="Link" to = "/gifting">
+            <li>Gifting</li>
+            </NavLink>
+            <NavLink className="Link" to = "/jewelery">
+            <li>Jewelery</li>
+            </NavLink>
         </ul>
     </div>
     )
